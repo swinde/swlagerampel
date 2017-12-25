@@ -8,13 +8,14 @@
   ],
   "homepage": "https://github.com/swinde/lagerampel_listenansicht",
   "license": [
-    "GNU"
+    "MIT"
   ],
   "autoload": {
     "psr-4": {
       "Swinde\\Lagerampel\\": "../../../source/modules/sw/swlagerampel"
     }
   },
+  "minimum-stability": "dev",
   "extra": {
     "oxideshop": {
       "target-directory": "sw/swlagerampel"
