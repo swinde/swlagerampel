@@ -1,2 +1,2 @@
 # lagerampel_listenansicht
-Lagerampel in Listenansicht Oxid 6
+Lagerampel in Listenansicht für Oxid 6
