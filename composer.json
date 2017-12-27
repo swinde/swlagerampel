@@ -1,6 +1,6 @@
 {
   "name": "swinde/swlagerampel",
-  "description": "swLagerampel - Lagerampel in der Listenansicht OXID 6.",
+  "description": "SwLagerampel - Lagerampel in der Listenansicht OXID 6.",
   "type": "oxideshop-module",
   "keywords": [
     "oxid",
@@ -12,10 +12,9 @@
   ],
   "autoload": {
     "psr-4": {
-      "Swinde\\SwLagerampel\\": "../../../source/modules/sw/swlagerampel"
+      "Swinde\\Lagerampel\\": "../../../source/modules/sw/swlagerampel"
     }
   },
-  "minimum-stability": "dev",
   "extra": {
     "oxideshop": {
       "target-directory": "sw/swlagerampel"
