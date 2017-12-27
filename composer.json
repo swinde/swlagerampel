@@ -6,13 +6,13 @@
     "oxid",
     "modules"
   ],
-  "homepage": "https://github.com/swinde/lagerampel_listenansicht",
+  "homepage": "https://github.com/swinde/swlagerampel",
   "license": [
     "MIT"
   ],
   "autoload": {
     "psr-4": {
-      "Swinde\\Lagerampel\\": "../../../source/modules/sw/swlagerampel"
+      "Swinde\\SwLagerampel\\": "../../../source/modules/sw/swlagerampel"
     }
   },
   "minimum-stability": "dev",
