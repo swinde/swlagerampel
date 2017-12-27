@@ -1,4 +1,3 @@
-[{oxstyle include=$oViewConf->getModuleUrl('sw_inserv/sw_lagerampel', 'out/src/css/ampel.css')}]
 [{$smarty.block.parent}]
 <div class="ampel_list">
     <div class="ampel_list_ig text-center">
@@ -11,7 +10,7 @@
             [{$product->oxarticles__oxnostocktext->value}]
             [{elseif $oViewConf->getStockOffDefaultMessage()}]
             <link itemprop="availability" href="http://schema.org/OutOfStock"/>
-            [{oxmultilang ident="MASSAGE_NOT_ON_STOCK"}]
+            [{oxmultilang ident="MESSAGE_NOT_ON_STOCK"}]
             [{/if}]
             [{if $product->getDeliveryDate()}]
         <link itemprop="availability" href="http://schema.org/PreOrder"/>
