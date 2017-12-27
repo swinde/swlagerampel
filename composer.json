@@ -7,17 +7,22 @@
     "modules"
   ],
   "homepage": "https://github.com/swinde/swlagerampel",
+  "version": "1.1.0",
+
   "license": [
     "MIT"
   ],
+  "require": {
+    "php": ">=5.6"
+  },
   "autoload": {
     "psr-4": {
-      "Swinde\\Lagerampel\\": "../../../source/modules/sw/swlagerampel"
+      "Swinde\\Lagerampel\\": "../../../source/modules/swinde/swlagerampel"
     }
   },
   "extra": {
     "oxideshop": {
-      "target-directory": "sw/swlagerampel"
+      "target-directory": "swinde/swlagerampel"
     }
   }
 }
