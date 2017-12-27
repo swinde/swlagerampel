@@ -1,15 +1,23 @@
 <?php
 /**
- * This program is free software: you can redistribute it and/or modify
+ * This file is part of OXID eSales PayPal module.
+ *
+ * OXID eSales PayPal module is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * @copyright (c) Proud Sourcing GmbH & shoptimax GmbH | 2017
- * @link www.proudcommerce.com / www.shoptimax.de
- * @package psExceptionHandler
- * @version 1.0.0
- **/
+ * OXID eSales PayPal module is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with OXID eSales PayPal module.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @link      http://www.oxid-esales.com
+ * @copyright (C) OXID eSales AG 2003-2017
+ */
 
 /**
  * Metadata version
@@ -19,25 +27,26 @@ $sMetadataVersion = '2.0';
 /**
  * Module information
  */
-$aModule = [
-    'id'          => 'swlagerampel',
-    'title'       => 'swLagerampel',
-    'description' => [
+$aModule = array(
+    'id'           => 'swlagerampel',
+    'title'        => 'SwLagerampel',
+    'description'  => array(
         'de' => 'Lagerampel für die Listenansicht',
-        'en' => ''
-    ],
-    'thumbnail'   => '',
-    'version'     => '1.0.0',
-    'author'      => 'Steffen Winde / Internetservice ',
-    'url'         => 'http://www.winde-ganzig.de/',
-    'email'       => '',
-    'extend'      => [],
-    'controllers' => [],
-    'templates'   => [],
-    'blocks' => array(
-        array('template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'out/blocks/ampel_list.tpl'),
-		    array('template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'out/blocks/ampel_infogrid.tpl'),
-		    array('template' => 'widget/product/listitem_grid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'out/blocks/ampel_grid.tpl'),
-        ),
-    'settings'    => [],
-];
+        'en' => '',
+    ),
+    'thumbnail'    => '',
+    'version'      => '1.1.0',
+    'author'       => 'Steffen Winde',
+    'url'          => 'http://winde-ganzig.de',
+    'email'        => 'inserv@winde-ganzig.de',
+    'extend'       => array(),
+    'controllers'  => array(),
+    'events'       => array(),
+    'templates'    => array(),
+    'blocks'       => array(
+        array('template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'views/blocks/ampel_list.tpl'),
+        array('template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_infogrid.tpl'),
+        array('template' => 'widget/product/listitem_grid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_grid.tpl'),
+    ),
+    'settings'     => array()
+);
