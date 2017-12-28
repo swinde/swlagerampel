@@ -22,7 +22,6 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "oxideshop": {
       "target-directory": "swinde/swlagerampel"
