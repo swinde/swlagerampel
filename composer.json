@@ -11,6 +11,7 @@
   "require": {
     "swinde/swlagerampel": "dev-master",
   },
+  "repositories": {   "swinde/swlagerampel": { "type": "vcs", "url": "git@www.github.com:swinde/swlagerampel.git"} },
   "autoload": {
     "psr-4": {
       "Swinde\\SwLagerampel\\": "../../../source/modules/swinde/swlagerampel"
