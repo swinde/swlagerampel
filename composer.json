@@ -2,25 +2,21 @@
   "name": "swinde/swlagerampel",
   "description": "SwLagerampel - Lagerampel in der Listenansicht OXID 6.",
   "type": "oxideshop-module",
+  "minimum-stability": "dev",
   "keywords": ["oxid","modules"],
   "homepage": "https://github.com/swinde/swlagerampel",
   "license": [
     "GPL-3.0",
     "proprietary"
   ],
-  "require": {
-    "swinde/swlagerampel": "dev-master",
-  },
-  "autoload": {
-    "psr-4": {
-      "Swinde\\SwLagerampel\\": "../../../source/modules/swinde/swlagerampel"
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "oxideshop": {
       "target-directory": "swinde/swlagerampel"
+    }
+  }
+  "autoload": {
+    "psr-4": {
+      "Swinde\\SwLagerampel\\": "../../../source/modules/swinde/swlagerampel"
     }
   }
 }
