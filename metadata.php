@@ -28,7 +28,7 @@ $sMetadataVersion = '2.0';
  * Module information
  */
 $aModule = [
-    'id'          => 'swlagerampel',
+    'id'          => 'swinde/swlagerampel',
     'title'       => [
         'de' => 'Lagerampel für Listenansichten',
         'en' => 'Lagerampel für Listenansichten',
