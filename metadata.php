@@ -45,9 +45,8 @@ $aModule = [
     'extend'      => [],
     'controllers' => [],
     'templates'   => [],
-    'blocks'       => array(
-        array('template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'views/blocks/ampel_list.tpl'),
-        array('template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_infogrid.tpl'),
-        array('template' => 'widget/product/listitem_grid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_grid.tpl'),
-    ),
+    'blocks'       => [
+        'template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'views/blocks/ampel_list.tpl',
+        'template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_infogrid.tpl',
+      ],
 ];
