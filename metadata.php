@@ -1,6 +1,6 @@
 <?php
 /**
- * @package       swlagerampel
+ * @package       swinde/swlagerampel
  * @category      module
  * @author        Internetservice Steffen Winde
  * @link          http://winde-ganzig.de
