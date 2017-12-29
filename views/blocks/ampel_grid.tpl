@@ -13,8 +13,8 @@
             [{oxmultilang ident="MESSAGE_NOT_ON_STOCK"}]
             [{/if}]
             [{if $product->getDeliveryDate()}]
-        <link itemprop="availability" href="http://schema.org/PreOrder"/>
-            [{oxmultilang ident="DETAILS_AVAILABLEON"}] [{$oDetailsProduct->getDeliveryDate()}]
+                <link itemprop="availability" href="http://schema.org/PreOrder"/>
+            [{oxmultilang ident="AVAILABLE_ON"}] [{$product->getDeliveryDate()}]
             [{/if}]
         </span>
         [{elseif $product->getStockStatus() == 1}]

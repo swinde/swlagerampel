@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "OxidCommunity\\ModuleInternals\\": "../../../source/modules/oxcom/moduleinternals"
+      "Swinde\\SwLagerampel\\": "../../../source/modules/swinde/swlagerampel"
     }
   }
 }
