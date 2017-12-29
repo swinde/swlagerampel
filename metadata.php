@@ -1,9 +1,9 @@
 <?php
 /**
- * @package       extenduser
+ * @package       swlagerampel
  * @category      module
- * @author        OXID eSales AG
- * @link          http://www.oxid-esales.com/en/
+ * @author        Internetservice Steffen Winde
+ * @link          http://winde-ganzig.de
  * @licenses      GNU GENERAL PUBLIC LICENSE. More info can be found in LICENSE file.
  * @copyright (C) OXID e-Sales, 2003-2017
  */
