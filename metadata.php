@@ -27,26 +27,27 @@ $sMetadataVersion = '2.0';
 /**
  * Module information
  */
-$aModule = array(
-    'id'           => 'swlagerampel',
-    'title'        => 'SwLagerampel',
-    'description'  => array(
-        'de' => 'Lagerampel für die Listenansicht',
-        'en' => '',
-    ),
-    'thumbnail'    => '',
-    'version'      => '1.1.0',
-    'author'       => 'Steffen Winde',
-    'url'          => 'http://winde-ganzig.de',
-    'email'        => 'inserv@winde-ganzig.de',
-    'extend'       => array(),
-    'controllers'  => array(),
-    'events'       => array(),
-    'templates'    => array(),
+$aModule = [
+    'id'          => 'swlagerampel',
+    'title'       => [
+        'de' => 'Lagerampel für Listenansichten',
+        'en' => 'Lagerampel für Listenansichten',
+    ],
+    'description' => [
+        'en' => 'Lagerampel für Listenansichten (V6).',
+        'de' => 'Lagerampel für Listenansichten (V6).',
+    ],
+    'thumbnail'   => '',
+    'version'     => '1.0.1',
+    'author'      => 'Steffen Winde',
+    'url'         => 'https://github.com/swinde/swlagerampel',
+    'email'       => '',
+    'extend'      => [],
+    'controllers' => [],
+    'templates'   => [],
     'blocks'       => array(
         array('template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'views/blocks/ampel_list.tpl'),
         array('template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_infogrid.tpl'),
         array('template' => 'widget/product/listitem_grid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_grid.tpl'),
     ),
-    'settings'     => array()
-);
+];
