@@ -1,13 +1,13 @@
 [{$smarty.block.parent}]
-<div class="text-center">
+<div class="text-left">
     [{if $product->getStockStatus() == -1}]
     <span class="stockFlag notOnStock">
         <i class="fa fa-circle text-danger"></i>
         [{if $product->oxarticles__oxnostocktext->value}]
     <link itemprop="availability" href="http://schema.org/OutOfStock"/>
-            [{$product->oxarticles__oxnostocktext->value}]
-            [{elseif $oViewConf->getStockOffDefaultMessage()}]
-            <link itemprop="availability" href="http://schema.org/OutOfStock"/>
+        [{$product->oxarticles__oxnostocktext->value}]
+        [{elseif $oViewConf->getStockOffDefaultMessage()}]
+        <link itemprop="availability" href="http://schema.org/OutOfStock"/>
         [{oxmultilang ident="MESSAGE_NOT_ON_STOCK"}]
         [{/if}]
         [{if $product->getDeliveryDate()}]

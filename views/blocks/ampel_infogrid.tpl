@@ -1,6 +1,5 @@
 [{$smarty.block.parent}]
 <div class="text-left">
-    [{block name="details_productmain_stockstatus"}]
     [{if $product->getStockStatus() == -1}]
     <span class="stockFlag notOnStock">
         <i class="fa fa-circle text-danger"></i>
@@ -32,5 +31,4 @@
         [{/if}]
     </span>
     [{/if}]
-    [{/block}]
 </div>

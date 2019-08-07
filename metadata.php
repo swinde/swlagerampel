@@ -27,16 +27,46 @@ $aModule = [
         'de' => 'Lagerampel für Listenansichten (V6).',
     ],
     'thumbnail'   => '',
-    'version'     => '1.0.1',
+    'version'     => '1.2',
     'author'      => 'Steffen Winde',
     'url'         => 'https://github.com/swinde/swlagerampel',
     'email'       => '',
     'extend'      => [],
     'controllers' => [],
     'templates'   => [],
-    'blocks'       => [
-        ['template' => 'widget/product/listitem_line.tpl', 'block'=>'widget_product_listitem_line_titlebox', 'file'=>'views/blocks/ampel_list.tpl'],
-       ['template' => 'widget/product/listitem_infogrid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_infogrid.tpl'],
-       ['template' => 'widget/product/listitem_grid.tpl', 'block'=>'widget_product_listitem_infogrid_titlebox', 'file'=>'views/blocks/ampel_grid.tpl'],
+    'blocks'      => [
+        [
+            'template' => 'widget/product/listitem_line.tpl',
+            'block'    => 'widget_product_listitem_line_description',
+            'file'=>'/views/blocks/ampel_line.tpl'
+        ],
+        [
+            'template' => 'widget/product/listitem_infogrid.tpl',
+            'block'=>'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_infogrid.tpl'
+        ],
+        [
+            'template' => 'widget/product/listitem_grid.tpl',
+            'block'=>'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_grid.tpl'
+        ],
+        [
+            'theme' => 'dd_roxive',
+            'template' => 'widget/product/listitem_line.tpl',
+            'block'    =>  'widget_product_listitem_line_description',
+            'file'=>'/views/blocks/ampel_listitem_line_ForRoxive.tpl'
+        ],
+        [
+            'theme' => 'dd_roxive',
+            'template' => 'widget/product/listitem_infogrid.tpl',
+            'block'    =>  'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_infogrid_ForRoxive.tpl'
+        ],
+        [
+            'theme' => 'dd_roxive',
+            'template' => 'widget/product/listitem_grid.tpl',
+            'block'    => 'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_grid_ForRoxive.tpl'
+        ],
     ],
 ];

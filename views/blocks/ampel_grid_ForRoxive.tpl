@@ -1,8 +1,9 @@
 [{$smarty.block.parent}]
 <div class="text-center">
+    [{block name="details_productmain_stockstatus"}]
     [{if $product->getStockStatus() == -1}]
     <span class="stockFlag notOnStock">
-        <i class="fa fa-circle text-danger"></i>
+        <i class="icon-circle text-danger"></i>
         [{if $product->oxarticles__oxnostocktext->value}]
     <link itemprop="availability" href="http://schema.org/OutOfStock"/>
             [{$product->oxarticles__oxnostocktext->value}]
@@ -18,12 +19,12 @@
     [{elseif $product->getStockStatus() == 1}]
 <link itemprop="availability" href="http://schema.org/InStock"/>
     <span class="stockFlag lowStock">
-        <i class="fa fa-circle text-warning"></i> [{oxmultilang ident="LOW_STOCK"}]
+        <i class="icon-circle text-warning"></i> [{oxmultilang ident="LOW_STOCK"}]
     </span>
     [{elseif $product->getStockStatus() == 0}]
     <span class="stockFlag">
         <link itemprop="availability" href="http://schema.org/InStock"/>
-        <i class="fa fa-circle text-success"></i>
+        <i class="icon-circle text-success"></i>
         [{if $product->oxarticles__oxstocktext->value}]
         [{$product->oxarticles__oxstocktext->value}]
         [{elseif $oViewConf->getStockOnDefaultMessage()}]
@@ -31,4 +32,5 @@
         [{/if}]
     </span>
     [{/if}]
+    [{/block}]
 </div>
