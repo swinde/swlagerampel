@@ -1,4 +1,11 @@
 [{$smarty.block.parent}]
+[{if $oViewConf->getActiveTheme()|strpos:"flow" !== false }][{strip}]
+    <style type="text/css">
+        @media (min-width: 992px) {
+            .text-md-left {text-align:left!important;}
+        }
+    </style>
+    [{/strip}][{/if}]
 <div class="text-center text-md-left">
     [{if $product->getStockStatus() == -1}]
     <span class="stockFlag notOnStock">
