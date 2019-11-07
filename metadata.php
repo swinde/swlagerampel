@@ -23,7 +23,7 @@ $aModule = [
         'en' => 'Lagerampel für Listenansichten',
     ],
     'description' => [
-        'en' => 'Lagerampel für Listenansichten (V6).',
+        'en' => '.Bees - Lagerampel für Listenansichten (V6).',
         'de' => 'Lagerampel für Listenansichten (V6).',
     ],
     'thumbnail'   => '',
