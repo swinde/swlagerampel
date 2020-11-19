@@ -19,11 +19,11 @@ $sMetadataVersion = '2.0';
 $aModule = [
     'id'          => 'swinde/swlagerampel',
     'title'       => [
-        'de' => 'Lagerampel für Listenansichten',
-        'en' => 'Lagerampel für Listenansichten',
+        'de' => '.BEES - Lagerampel für Listenansichten',
+        'en' => '.BEES - Lagerampel für Listenansichten',
     ],
     'description' => [
-        'en' => '.Bees - Lagerampel für Listenansichten (V6).',
+        'en' => 'Lagerampel für Listenansichten (V6).',
         'de' => 'Lagerampel für Listenansichten (V6).',
     ],
     'thumbnail'   => '',
