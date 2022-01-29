@@ -11,7 +11,7 @@
 /**
  * Metadata version
  */
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 
 /**
  * Module information
@@ -68,5 +68,23 @@ $aModule = [
             'block'    => 'widget_product_listitem_infogrid_titlebox',
             'file'=>'/views/blocks/ampel_grid_ForRoxive.tpl'
         ],
+		[
+			'theme' => 'moga',
+			'template' => 'widget/product/listitem_line.tpl',
+			'block'    =>  'widget_product_listitem_line_description',
+			'file'=>'/views/blocks/ampel_listitem_line_ForMoga.tpl'
+		],
+		[
+			'theme' => 'moga',
+			'template' => 'widget/product/listitem_infogrid.tpl',
+			'block'    =>  'widget_product_listitem_infogrid_titlebox',
+			'file'=>'/views/blocks/ampel_infogrid_ForMoga.tpl'
+		],
+		[
+			'theme' => 'moga',
+			'template' => 'widget/product/listitem_grid.tpl',
+			'block'    => 'widget_product_listitem_infogrid_titlebox',
+			'file'=>'/views/blocks/ampel_grid_ForMoga.tpl'
+		]
     ],
 ];
