@@ -17,7 +17,7 @@ $sMetadataVersion = '2.1';
  * Module information
  */
 $aModule = [
-	'id'          => 'swinde/swlagerampel',
+	'id'          => 'swlagerampel',
 	'title'       => [
 		'de' => 'BEES - Lagerampel für Listenansichten',
 		'en' => 'BEES - Lagerampel für Listenansichten',
@@ -27,7 +27,7 @@ $aModule = [
 		'de' => 'Lagerampel für Listenansichten (V6).',
 	],
 	'thumbnail'   => '',
-	'version'     => '1.3.1',
+	'version'     => '1.3.3',
 	'author'      => 'Steffen Winde',
 	'url'         => 'https://github.com/swinde/swlagerampel',
 	'email'       => 'inser@winde-ganzig.de',
@@ -46,6 +46,5 @@ $aModule = [
 		['template' => 'widget/product/listitem_infogrid.tpl',
 		 'block'=>'widget_product_listitem_infogrid_titlebox',
 		 'file'=>'/views/blocks/ampel_infogrid.tpl'],
-
 	]
 ];
