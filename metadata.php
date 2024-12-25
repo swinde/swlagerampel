@@ -19,8 +19,8 @@ $sMetadataVersion = '2.1';
 $aModule = [
 	'id'          => 'swinde/swlagerampel',
 	'title'       => [
-		'de' => '.BEES - Lagerampel für Listenansichten',
-		'en' => '.BEES - Lagerampel für Listenansichten',
+		'de' => 'BEES - Lagerampel für Listenansichten',
+		'en' => 'BEES - Lagerampel für Listenansichten',
 	],
 	'description' => [
 		'en' => 'Lagerampel für Listenansichten (V6).',
@@ -36,17 +36,16 @@ $aModule = [
 	'templates'   => [],
 	'blocks'      => [
 		//Line-List
-		['template'=>'widget/product/listitem_line.tpl','block'=>'widget_product_listitem_line_description','file'=>'/views/blocks/ampel_line.tpl'],
-		['theme' => 'dd_roxive','template' => 'widget/product/listitem_line.tpl','block'=>'widget_product_listitem_line_description','file'=>'/views/blocks/ampel_listitem_line_ForRoxive.tpl'],
-		['theme' => 'moga','template' => 'widget/product/listitem_line.tpl','block'=>'widget_product_listitem_line_description','file'=>'/views/blocks/ampel_listitem_line_ForMoga.tpl'],
+		['template'=>'widget/product/listitem_line.tpl',
+		 'block'=>'widget_product_listitem_line_description',
+		 'file'=>'/views/blocks/ampel_line.tpl'],
 		//Item-Grid_List
-		['theme' => 'moga','template' => 'widget/product/listitem_grid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_infogrid_ForMoga.tpl'],
-		['theme' => 'dd_roxive','template'=>'widget/product/listitem_grid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_grid_ForRoxive.tpl'],
-		['template' => 'widget/product/listitem_grid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_grid.tpl'],
-
-		['theme' => 'dd_roxive','template' => 'widget/product/listitem_infogrid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_infogrid_ForRoxive.tpl'],
-		['theme' => 'moga','template' => 'widget/product/listitem_infogrid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_infogrid_ForMoga.tpl'],
-		['template' => 'widget/product/listitem_infogrid.tpl','block'=>'widget_product_listitem_infogrid_titlebox','file'=>'/views/blocks/ampel_infogrid.tpl'],
+		['template' => 'widget/product/listitem_grid.tpl',
+		 'block'=>'widget_product_listitem_infogrid_titlebox',
+		 'file'=>'/views/blocks/ampel_grid.tpl'],
+		['template' => 'widget/product/listitem_infogrid.tpl',
+		 'block'=>'widget_product_listitem_infogrid_titlebox',
+		 'file'=>'/views/blocks/ampel_infogrid.tpl'],
 
 	]
 ];
