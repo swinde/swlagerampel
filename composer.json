@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Swinde\\SwLagerampel\\": "../../../source/modules/swinde/swlagerampel"
+      "Swinde\\SwLagerampel\\":  "../../../source/modules/swinde/swlagerampel"
     }
   }
 }
