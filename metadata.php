@@ -12,10 +12,6 @@
  * Metadata version
  */
 $sMetadataVersion = '2.1';
-
-/**
- * Module information
- */
 $aModule = [
 	'id'          => 'swlagerampel',
 	'title'       => [
