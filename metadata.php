@@ -32,7 +32,7 @@ $aModule = [
 	'templates'   => [],
 	'blocks'      => [
 
-        [   'theme' => 'o3-shop',
+        [   'theme' => 'o3-theme',
             'template' => 'widget/product/listitem_grid.tpl',
             'block'=>'widget_product_listitem_grid',
             'file'=>'/views/blocks/ampel_infogrid_o3.tpl'],
