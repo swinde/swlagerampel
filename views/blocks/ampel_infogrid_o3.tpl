@@ -1,4 +1,5 @@
 [{$smarty.block.parent}]
+[{oxstyle include=$oViewConf->getModuleUrl('swlagerampel','out/src/css/ampel.css')}]
     [{if $product->getStockStatus() == -1}]
     <div class="products__info-stock notOnStock">
         [{if $product->oxarticles__oxnostocktext->value}]
