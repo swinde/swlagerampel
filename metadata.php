@@ -31,19 +31,21 @@ $aModule = [
 	'controllers' => [],
 	'templates'   => [],
 	'blocks'      => [
-		//Line-List
-		['template'=>'widget/product/listitem_line.tpl',
-		 'block'=>'widget_product_listitem_line_description',
-		 'file'=>'/views/blocks/ampel_line.tpl'],
-		//Item-Grid_List
-		['template' => 'widget/product/listitem_grid.tpl',
-		 'block'=>'widget_product_listitem_infogrid_titlebox',
-		 'file'=>'/views/blocks/ampel_grid.tpl'],
-		['template' => 'widget/product/listitem_infogrid.tpl',
-		 'block'=>'widget_product_listitem_infogrid_titlebox',
-		 'file'=>'/views/blocks/ampel_infogrid.tpl'],
-        ['template' => 'widget/product/listitem_grid.tpl',
+
+        [   'theme' => 'o3-shop',
+            'template' => 'widget/product/listitem_grid.tpl',
             'block'=>'widget_product_listitem_grid',
             'file'=>'/views/blocks/ampel_infogrid_o3.tpl'],
+        //Line-List
+        ['template'=>'widget/product/listitem_line.tpl',
+            'block'=>'widget_product_listitem_line_description',
+            'file'=>'/views/blocks/ampel_line.tpl'],
+        //Item-Grid_List
+        ['template' => 'widget/product/listitem_grid.tpl',
+            'block'=>'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_grid.tpl'],
+        ['template' => 'widget/product/listitem_infogrid.tpl',
+            'block'=>'widget_product_listitem_infogrid_titlebox',
+            'file'=>'/views/blocks/ampel_infogrid.tpl'],
 	]
 ];
