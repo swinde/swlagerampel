@@ -1,0 +1,20 @@
+.products__info-stock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    flex-grow: 0;
+    padding-right: 20px;
+}
+.products__info-stock::before {
+    content: "";
+    display: inline-block;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Crect%20width%3D%2224%22%20height%3D%2224%22%20rx%3D%2212%22%20fill%3D%22%23008F39%22%20fill-opacity%3D%220.16%22%2F%3E%3Cpath%20d%3D%22M8%2011.8571L11.0938%2015L17%209%22%20stroke%3D%22%23008F39%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E");
+    background-size: cover;
+}
+.products__info-stock.notOnStock::before {
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%3E%3Cg%3E%3Ctitle%3ELayer%201%3C%2Ftitle%3E%3Cpath%20fill%3D%22%23ff0000%22%20fill-opacity%3D%220.16%22%20d%3D%22m0%2C12c0%2C-6.52055%205.47945%2C-12%2012%2C-12l0%2C0c6.52055%2C0%2012%2C5.47945%2012%2C12l0%2C0c0%2C6.52055%20-5.47945%2C12%20-12%2C12l0%2C0c-6.52055%2C0%20-12%2C-5.47945%20-12%2C-12l0%2C0z%22%20id%3D%22svg_1%22%2F%3E%3Cpath%20d%3D%22m8.03485%2C16.32676l8.3991%2C-8.27853%22%20stroke%3D%22%23ff0000%22%20stroke-width%3D%222%22%20id%3D%22svg_2%22%2F%3E%3Cpath%20transform%3D%22rotate(90%2C%2012.2344%2C%2012.1875)%22%20d%3D%22m8.03485%2C16.32676l8.3991%2C-8.27853%22%20stroke%3D%22%23ff0000%22%20stroke-width%3D%222%22%20id%3D%22svg_3%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
