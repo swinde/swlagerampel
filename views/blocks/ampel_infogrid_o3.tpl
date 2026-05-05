@@ -1,6 +1,6 @@
 [{$smarty.block.parent}]
     [{if $product->getStockStatus() == -1}]
-    <div class="details__info-stock notOnStock">
+    <div class="products__info-stock notOnStock">
         [{if $product->oxarticles__oxnostocktext->value}]
         [{$product->oxarticles__oxnostocktext->value}]
         [{elseif $oViewConf->getStockOffDefaultMessage()}]
@@ -11,11 +11,11 @@
         [{/if}]
     </div>
     [{elseif $product->getStockStatus() == 1}]
-    <div class="details__info-stock lowStock">
+    <div class="products__info-stock lowStock">
         [{oxmultilang ident="LOW_STOCK"}]
     </div>
     [{elseif $product->getStockStatus() == 0}]
-    <div class="details__info-stock">
+    <div class="products__info-stock">
         [{if $product->oxarticles__oxstocktext->value}]
         [{$product->oxarticles__oxstocktext->value}]
         [{elseif $oViewConf->getStockOnDefaultMessage()}]
