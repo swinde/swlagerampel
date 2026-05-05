@@ -42,5 +42,8 @@ $aModule = [
 		['template' => 'widget/product/listitem_infogrid.tpl',
 		 'block'=>'widget_product_listitem_infogrid_titlebox',
 		 'file'=>'/views/blocks/ampel_infogrid.tpl'],
+        ['template' => 'widget/product/listitem_grid.tpl',
+            'block'=>'widget_product_listitem_grid',
+            'file'=>'/views/blocks/ampel_infogrid_o3.tpl'],
 	]
 ];
