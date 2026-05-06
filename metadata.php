@@ -23,7 +23,7 @@ $aModule = [
 		'de' => 'Lagerampel für Listenansichten (V6).',
 	],
 	'thumbnail'   => '',
-	'version'     => '1.3.3',
+	'version'     => '1.3.4',
 	'author'      => 'Steffen Winde',
 	'url'         => 'https://github.com/swinde/swlagerampel',
 	'email'       => 'inserv@winde-ganzig.de',
